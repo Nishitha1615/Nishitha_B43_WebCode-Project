@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" container="IE=edge">
+    <meta name="viewport" container="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+    .body{
+    /* margin: 7px; */
+    /* border: 5px solid black; */
+    /* height: 100px; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* display: grid; */
+    justify-content: center;
+    background-color: rgb(253, 200, 184) ;
+    padding-bottom: 80px;
+    /* align-items: center; */
+}
+    ul>li{
+    /* display: flex; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 7px;
+    border-radius: 5px;
+    /* background-color: rgba(112, 35, 35, 0.719); */
+    color: rgb(7, 7, 7);
+    
+}
+ul{
+    list-style-type: none;
+   
+}
+.main-card{
+    display:inline-flex;
+    flex:wrap;
+    /* display:grid;
+    grid-gap: 10px; */
+    /* height:250px; */
+}
+.card{
+    display:grid;
+    grid-gap: 10px;
+    width: 300px ;
+    height: 480px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px ;
+    box-shadow:  5px 5px 15px black;
+    background-image: linear-gradient(to left,rgb(253, 200, 184),rgba(235, 174, 159, 0.644) ,rgb(253, 200, 184)) !important;
+}
+.card:hover{
+    box-shadow:  10px 15px 40px rgb(233, 141, 141);
+    cursor:pointer;
+    border:2px solid rgb(68, 61, 62)
+}
+
+img{
+    height: 150px ;
+    width: max-content;
+    border-radius: 18px 18px 7px 7px ;
+    background-color: white;
+    padding: 2px;
+}
+
+.pagination{
+    
+    /* border: 3px solid black; */
+    border-top: 2px solid black;
+    padding: 10px;
+    /* position: fixed;
+    margin-top: 485px; */
+    width: 100%;
+    justify-container: center;
+    background-image: linear-gradient(to left,rgb(235, 114, 77),rgb(243, 140, 114) ,rgb(223, 114, 81)) !important;
+     display: grid;
+     align-items: center;
+     padding-bottom: 0px ;
+}
+
+.pagination-link:hover ,.active{
+    color: white;
+    background-color: rgb(224, 93, 93);
+    cursor: pointer;
+}
+
+.first:hover,.last:hover{
+    color: white;
+    background-color: rgb(223, 62, 62);
+    cursor: pointer;
+}
+.previous:hover,.next:hover{
+    color: white;
+    background-color: rgb(201, 105, 105);
+    cursor: pointer;
+}
+.card-body
+{
+    overflow: scroll;
+}
+/* .card-text
+{
+    overflow: scroll;
+} */
+
+</style>
+<body>
+    <script src="script.js"></script>
+
+</body>
+</html>
